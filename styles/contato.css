@@ -24,3 +24,11 @@
 .incone__whatsapp {
     max-width: 50px;
 }
+
+@media screen and (max-width: 768px) {
+    .whatsapp__wrapper {
+        margin: unset;
+        padding: 0 25px;
+        width: 100%;
+    }
+}

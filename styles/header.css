@@ -1,8 +1,10 @@
 .header__lista {
+    align-items: center;
     display: flex;
     gap: 2rem;
     padding: 1rem 0;
     justify-content: center;
+    text-align: center;
 }
 
 .header__item a {
@@ -13,4 +15,10 @@
 
 .header__item a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .header__item a {
+        text-align: center;
+    }
 }

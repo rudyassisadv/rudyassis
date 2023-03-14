@@ -33,3 +33,13 @@ h1, h2 {
     background-color: whitesmoke;
     color: black;
 }
+
+@media screen and (max-width: 768px) {
+    :root {
+        font-size: 12px;
+    }
+
+    section, header {
+        padding: 2rem;
+    }
+}
