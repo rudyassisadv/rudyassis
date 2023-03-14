@@ -1,0 +1,30 @@
+.servicos__lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.servico__item {
+    width: 25%;
+}
+
+.icone__wrapper {
+    background-color: darkgray;
+    border-radius: 50%;
+    margin-left: calc(50% - 40px);
+    padding: 15px;
+    width: 80px;
+}
+
+.servico__icone {
+    width: 100%;
+}
+
+.servico__titulo {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    text-align: center;
+}

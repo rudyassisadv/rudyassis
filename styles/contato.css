@@ -1,0 +1,26 @@
+#contato {
+    text-align: center;
+}
+
+.contato__description {
+    margin-bottom: 2rem;
+}
+
+.whatsapp__wrapper {
+    align-items: center;
+    background-color: #1bd741;
+    border-radius: 35px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    font-weight: 600;
+    height: 70px;
+    justify-content: space-evenly;
+    margin-left: calc(50% - 275px);
+    text-decoration: none;
+    width: 550px;
+}
+
+.incone__whatsapp {
+    max-width: 50px;
+}

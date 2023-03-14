@@ -1,0 +1,16 @@
+.header__lista {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem 0;
+    justify-content: center;
+}
+
+.header__item a {
+    color: unset;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.header__item a:hover {
+    text-decoration: underline;
+}
